@@ -154,11 +154,10 @@ footer .bottom {
 
 footer .bottom p {
   color: #9CA3AF !important;
-  margin: 0px 33.5px 0px 0px ;
+  margin: 0px 41px 0px 0px ;
 }
 
 footer .icons {
-  padding: 0px 0px 0px 10px;
   display: flex;
   gap: 28px;
 }
@@ -169,7 +168,7 @@ footer .icons {
   }
 }
 
-@media (max-width: 549px) {
+@media (max-width: 538px) {
   footer .icons {
     margin-top: 20px;
   }
