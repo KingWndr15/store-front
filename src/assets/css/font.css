@@ -1,0 +1,20 @@
+@import url('./variable.css');
+
+/* heading fonts */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #9CA3AF;
+    font-size: 14px;
+}
+
+/* body fonts */
+p, span, a, label, ul, li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6B7280;
+}
+
+
+h2 {
+    text-transform: uppercase;    
+}
