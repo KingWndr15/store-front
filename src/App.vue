@@ -47,14 +47,56 @@ export default {
 </script>
 
 <style>
-@import '@/assets/css/main.css';
-@import '@/assets/css/variable.css';
+html {
+    scroll-behavior: smooth;
+    font-family: var(--base-font-family);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: var(--base-font-family);
+}
+
 
 #app {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+/* heading fonts */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #9CA3AF;
+    font-size: 14px;
+}
+
+/* body fonts */
+p, span, a, label, ul, li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6B7280;
+}
+
+h2 {
+  text-transform: uppercase;    
+}
+
+select {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6B7280;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("/src/assets/images/drop-down.svg");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
 }
 
 footer {
